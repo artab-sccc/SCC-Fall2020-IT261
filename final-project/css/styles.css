@@ -1,0 +1,260 @@
+/* Styles for registration */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.welcome-logout {
+    position: fixed;
+    right: 0;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    background: tan;
+    color: black;
+}
+
+.welcome-logout a:link,
+.welcome-logout a:visited{
+    color: darkred;
+}
+
+.success {
+    position: fixed;
+    left: 0;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    background: tan;
+    color: black;
+}
+
+#logo {
+    width: 120px;
+    float: left;
+}
+
+header {
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.inner-header {
+    width: 940px;
+    margin: 20px auto;
+}
+
+nav ul {
+    float: right;
+    margin-top: 20px;
+}
+
+nav a {
+    color: brown;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+body {
+    background: #203647;
+    color: #EEFBFB;
+}
+
+#wrapper {
+    clear: both;
+    width: 940px;
+    margin: 0 auto;
+}
+
+main {
+    width: 580px;
+    float: left;
+    margin-top: 5px;
+}
+
+aside {
+    width: 340px;
+    margin-top: 15px;
+    float: right;
+}
+
+h1,
+h2{
+    margin-bottom: 15px;
+}
+
+form {
+    max-width: 580px;
+    margin: 20px auto 20px auto;
+}
+
+.login input,
+.reg input{
+    display: block;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login fieldset,
+.reg fieldset {
+    padding: 15px;
+    border-radius: 25px;
+    background: #007CC7;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+.login {
+    max-width: 320px;
+}
+
+.reg {
+    max-width: 420px;
+}
+
+.widebtn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.errormsg {
+    color: black;
+    font-style: italic;
+}
+
+.italic {
+    font-style: italic;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    clear: both;
+}
+
+footer li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+a:link {
+    color: #4DA8DA;
+}
+
+a:visited {
+    color: #4DA8DA;
+}
+
+.sideimage {
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.mainimage {
+    width: 600px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.getawayview ul {
+    list-style-type: none;
+}
+
+.getawayview img {
+    margin-bottom: 15px;
+}
+
+.getawaysd,
+.getawaysd ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.getawaysd img {
+    margin-bottom: 10px;
+}
+
+.about img {
+    margin-bottom: 10px;
+}
+
+/*Form CSS*/
+
+.contact form {
+    max-width: 580px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+    
+.contact input {
+    margin-bottom: 10px;
+}
+    
+.contact input[type=text],
+.contact input[text=email],
+.contact input[text=tel],
+.contact textarea {
+    width: 100%;
+    height: 30px;
+}
+
+.contact input[type=checkbox],
+.contact input[type=radio] {
+    margin-right: 10px;
+}
+
+.contact input[type=submit] {
+    margin-top: 10px;
+}
+
+.contact textarea{
+    height: 120px;
+    margin-bottom: 10px;
+}
+        
+.contact fieldset {
+    color: #EEFBFB;
+    padding: 10px 15px 10px 10px;
+    background: #007CC7;
+}
+
+}
+        
+.contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+        
+.contact select {
+    margin-bottom: 10px;
+}
+        
+.contact form ul {
+    list-style-type: none;
+    margin-left: 30px;
+}
+        
+.contact span {
+    display: block;
+    color: darkred;
+    font-style: italic;
+    margin-bottom: 10px;
+}
